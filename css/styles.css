@@ -34,8 +34,6 @@ html {
 
 /* Custom Styles */
 
-
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -43,8 +41,8 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
-	background: #FAFAFA;
-	color: #0277BD;
+	background: #fafafa;
+	color: #0277bd;
 }
 
 main > .intro {
@@ -59,36 +57,79 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.img-cicle{
-    border-radius: 25%;
-    max-width: 7em;
+.img-cicle {
+	border-radius: 25%;
+	max-width: 7em;
 }
-.link-curriculum{
+.link-curriculum {
 	text-decoration: none;
 	font-weight: bold;
-	color: #0277BD;
+	color: #0277bd;
 }
 
 .icons-social i {
 	padding: 10px;
 }
 .icons-social a {
-	color: #0277BD;
+	color: #0277bd;
 }
 
-.icons-social a svg path{
-	fill: #0277BD;
+.icons-social a svg path {
+	fill: #0277bd;
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+	margin-bottom: -0.2rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
+	margin-bottom: -0.2rem;
+	margin-left: 0.675rem;
 	width: 2.65rem;
 	height: 2.65rem;
 }
 
+.span-tag {
+	opacity: 1;
+}
 
+.fade-in-1 {
+	animation: fadeInOpacity 0.5s ease-in 1;
+}
+.fade-in-2 {
+	animation: fadeInOpacity 0.75s ease-in;
+}
+.fade-in-3 {
+	animation: fadeInOpacity 1s ease-in;
+}
+.fade-in-4 {
+	animation: fadeInOpacity 1.25s ease-in;
+}
+.fade-in-5 {
+	animation: fadeInOpacity 1.50s ease-in;
+}
+.fade-in-6 {
+	animation: fadeInOpacity 1.75s ease-in;
+}
+.fade-in-7 {
+	animation: fadeInOpacity 2s ease-in;
+}
+.fade-in-8 {
+	animation: fadeInOpacity 2.25s ease-in;
+}
+.fade-in-9 {
+	animation: fadeInOpacity 2.50s ease-in;
+}
+.fade-in-10 {
+	animation: fadeInOpacity 2.75s ease-in;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
