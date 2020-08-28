@@ -58,6 +58,7 @@ main > .tagline {
 }
 
 .img-cicle {
+	padding-top: 20px;
 	border-radius: 25%;
 	max-width: 7em;
 }
